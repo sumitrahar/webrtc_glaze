@@ -1,0 +1,66 @@
+cheating_detection_app/
+├── app/
+│   ├── main.py              # FastAPI entrypoint
+│   ├── webrtc_handler.py    # WebRTC frame receiver and dispatcher
+│   ├── yolo_detector.py     # YOLOv12 detection logic
+│   ├── head_pose.py         # MediaPipe head pose logic
+│   ├── logger.py            # Central logging utility
+|   ├── detectors.py         # Combination of yolo_detector+head_pose+logger
+│   └── __init__.py
+├── static/
+│   ├── style.css            # Frontend styles
+│   └── script.js            # JavaScript for WebRTC
+├── templates/
+|   └── index.html           # WebRTC frontend page
+├── detection_log.txt        # Output logs
+├── requirements.txt         # Project dependencies
+└── README.md                # Documentation
+
+
+✅ Step-by-step coding order (high-level):
+main.py (FastAPI entry point)
+→ Set up the FastAPI server and basic routes.
+
+webrtc_handler.py
+→ Handle receiving video frames via WebRTC (e.g., using aiortc).
+
+yolo_detector.py and head_pose.py
+→ Implement model inference functions (load model, detect objects/head pose).
+
+detection_pipeline.py (optional)
+→ Merge logic from YOLO + head pose + logging in one processing function.
+
+Frontend WebRTC code (frontend/static/js/)
+→ Use JavaScript + WebRTC to send webcam feed to the backend.
+
+Logging setup
+→ Finalize how logs are appended (e.g., detection_log.txt).
+
+🧠 Why this order?
+Start with the API skeleton.
+
+Then build the data transport (WebRTC).
+
+Then develop the detection logic.
+
+Finally, connect everything together.
+
+Data flow Summary
+
+[User Browser]
+    |
+    |  getUserMedia + WebRTC
+    ▼
+[WebRTC Client JS]
+    |
+    |  MediaStream (video) → WebRTC
+    ▼
+[Backend (Python + aiortc)]
+    |
+    |  Extract video frames (numpy)
+    ▼
+[Detection Pipeline (YOLO + MediaPipe)]
+    |
+    |  Logging
+    ▼
+[detection_log.txt]
