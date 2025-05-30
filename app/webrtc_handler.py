@@ -22,18 +22,23 @@ def setup_logging():
     logger = logging.getLogger('webrtc_handler')
     logger.setLevel(logging.INFO)
     
-    # Create console handler if not exists
-    if not logger.handlers:
-        console_handler = logging.StreamHandler(sys.stdout)
-        console_handler.setLevel(logging.INFO)
-        
-        # Create formatter
-        formatter = logging.Formatter(
-            '[%(asctime)s] WebRTC: %(message)s',
-            datefmt='%Y-%m-%d %H:%M:%S'
-        )
-        console_handler.setFormatter(formatter)
-        logger.addHandler(console_handler)
+    # Clear existing handlers to avoid duplicates
+    logger.handlers.clear()
+    
+    # Create console handler
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setLevel(logging.INFO)
+    
+    # Create formatter
+    formatter = logging.Formatter(
+        '[%(asctime)s] WebRTC: %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+    console_handler.setFormatter(formatter)
+    logger.addHandler(console_handler)
+    
+    # Prevent propagation to avoid duplicate logs
+    logger.propagate = False
     
     return logger
 
@@ -160,11 +165,6 @@ async def detect_frame(data: dict):
             'image_shape': image.shape
         })
         
-        # Log detection summary
-        objects_str = ", ".join(result['detected_objects']) if result['detected_objects'] else 'None'
-        alerts_str = ", ".join(result['alerts']) if result['alerts'] else 'None'
-        logger.info(f"🔍 Single Frame Detection - Head: {result['head_pose']}, Eyes: {result['eye_gaze']}, Objects: {objects_str}, Alerts: {alerts_str}")
-        
         return JSONResponse(content=result)
         
     except Exception as e:
@@ -194,11 +194,7 @@ async def websocket_endpoint(websocket: WebSocket):
                         # Decode image
                         image = decode_base64_image(message['image'])
                         
-                        # Log frame processing (less frequent to avoid spam)
-                        if frame_counter % 30 == 0:  # Log every 30th frame
-                            logger.info(f"🎥 Processing WebSocket frame #{frame_counter} - Size: {image.shape}")
-                        
-                        # Run detection
+                        # Run detection - this will trigger the logging we want
                         result = detect_cheating(image)
                         
                         # Send result back to client
@@ -232,7 +228,6 @@ async def websocket_endpoint(websocket: WebSocket):
                         'timestamp': datetime.now().isoformat()
                     }
                     await manager.send_personal_message(pong_response, websocket)
-                    logger.debug("🏓 Ping-pong received")
                 
                 elif message.get('type') == 'get_status':
                     # Send current detector status
@@ -329,10 +324,10 @@ async def test_detector():
         cv2.putText(test_image, "Test Image", (200, 240), 
                    cv2.FONT_HERSHEY_SIMPLEX, 2, (255, 255, 255), 3)
         
-        # Run detection
+        # Run detection - this will also trigger logging
         result = detect_cheating(test_image)
         
-        logger.info(f"✅ Detector test completed - Head: {result['head_pose']}, Eyes: {result['eye_gaze']}")
+        logger.info(f"✅ Detector test completed")
         
         return JSONResponse(content={
             'status': 'test_completed',

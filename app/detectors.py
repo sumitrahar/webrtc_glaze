@@ -10,6 +10,7 @@ import os
 import time
 from typing import Dict, List, Tuple, Optional
 import logging
+import sys
 
 # Configuration
 FACE_MODEL_PATH = "face_landmarker.task"
@@ -55,18 +56,23 @@ class CheatingDetector:
         self.logger = logging.getLogger('cheating_detector')
         self.logger.setLevel(logging.INFO)
         
-        # Create console handler if not exists
-        if not self.logger.handlers:
-            console_handler = logging.StreamHandler()
-            console_handler.setLevel(logging.INFO)
-            
-            # Create detailed formatter
-            formatter = logging.Formatter(
-                '[%(asctime)s] %(message)s',
-                datefmt='%Y-%m-%d %H:%M:%S'
-            )
-            console_handler.setFormatter(formatter)
-            self.logger.addHandler(console_handler)
+        # Clear existing handlers to avoid duplicates
+        self.logger.handlers.clear()
+        
+        # Create console handler
+        console_handler = logging.StreamHandler(sys.stdout)
+        console_handler.setLevel(logging.INFO)
+        
+        # Create detailed formatter - matches your desired format exactly
+        formatter = logging.Formatter(
+            '[%(asctime)s] %(message)s',
+            datefmt='%Y-%m-%d %H:%M:%S'
+        )
+        console_handler.setFormatter(formatter)
+        self.logger.addHandler(console_handler)
+        
+        # Prevent propagation to avoid duplicate logs
+        self.logger.propagate = False
         
     def update_fps(self):
         """Calculate and update FPS"""
@@ -226,7 +232,7 @@ class CheatingDetector:
         # Format alerts
         alerts_str = ", ".join(results['alerts']) if results['alerts'] else 'None'
         
-        # Create log message
+        # Create log message in exact format you want
         log_message = (
             f"FPS: {self.fps:.1f} | "
             f"Head: {results['head_pose']} | "
@@ -235,8 +241,11 @@ class CheatingDetector:
             f"Alerts: {alerts_str}"
         )
         
-        # Log the message
+        # Log the message - this should now appear in console
         self.logger.info(log_message)
+        
+        # Also print directly to ensure it shows up
+        print(f"[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {log_message}")
     
     def detect_frame(self, frame: np.ndarray) -> Dict:
         """
@@ -302,7 +311,7 @@ class CheatingDetector:
             except Exception as e:
                 print(f"❌ YOLO detection error: {e}")
         
-        # Log the results
+        # Log the results - this will now show the format you want
         self.log_detection_results(results)
         
         return results
