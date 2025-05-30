@@ -40,7 +40,7 @@ async function startWebcam() {
         
         updateStatus("Webcam started, connecting to detection service...");
 
-        // FIXED: Correct WebSocket URL - remove "/video" suffix
+        // FIXED: Correct WebSocket URL - matches the backend endpoint exactly
         ws = new WebSocket("ws://localhost:8000/ws");
 
         ws.onopen = () => {
@@ -149,7 +149,7 @@ function sendFrame() {
         // Convert to base64 JPEG
         const base64Image = canvas.toDataURL("image/jpeg", 0.8); // 80% quality
 
-        // FIXED: Send proper JSON message format expected by the WebSocket handler
+        // Send proper JSON message format expected by the WebSocket handler
         const message = {
             type: "frame",
             image: base64Image,

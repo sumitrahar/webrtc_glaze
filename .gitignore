@@ -7,3 +7,6 @@ detection_logs/
 _pycache/
 __pycache__/
 MultiLingual Chatbot/
+face_landmarker/
+face_landmarker/face_landmarker.task
+face_landmarker.task
