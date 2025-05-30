@@ -1,3 +1,5 @@
+--- START OF FILE templates/index.html ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +20,8 @@
   <!-- Optional: area to show status messages -->
   <div id="status"></div>
 
-  <script src="/static/script.js"></script>
+  <!-- Added a version query parameter for cache-busting -->
+  <script src="/static/script.js?v=1.0.1"></script>
 </body>
 </html>
+--- END OF FILE templates/index.html ---

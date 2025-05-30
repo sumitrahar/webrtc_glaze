@@ -1,0 +1,223 @@
+[2025-05-30 14:37:36] Logging initialized. Detector events will be saved to C:\Users\Sumit\Desktop\Task 18 Cheating Detection\Task 18 Cheating Detection\detector_events.log
+[2025-05-30 14:37:37] Detector initialized successfully (from initialize_detector call).
+[2025-05-30 14:37:42] FPS: 0.2 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.91) | Alerts: None
+[2025-05-30 14:37:42] FPS: 0.2 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.91) | Alerts: None
+[2025-05-30 14:37:42] FPS: 0.2 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90) | Alerts: None
+[2025-05-30 14:37:43] FPS: 2.9 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.91) | Alerts: None
+[2025-05-30 14:37:43] FPS: 2.9 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90) | Alerts: None
+[2025-05-30 14:37:43] FPS: 2.9 | Head: Head Turned | Eyes: Looking at Screen | Objects: person (0.78) | Alerts: None
+[2025-05-30 14:37:43] FPS: 2.9 | Head: Head Turned | Eyes: Looking at Screen | Objects: person (0.89) | Alerts: None
+[2025-05-30 14:37:44] FPS: 3.3 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.91) | Alerts: None
+[2025-05-30 14:37:44] FPS: 3.3 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90) | Alerts: None
+[2025-05-30 14:37:44] FPS: 3.3 | Head: No Face | Eyes: No Face | Objects: person (0.87) | Alerts: None
+[2025-05-30 14:37:45] FPS: 3.3 | Head: No Face | Eyes: No Face | Objects: person (0.89) | Alerts: None
+[2025-05-30 14:37:45] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.93), chair (0.52) | Alerts: None
+[2025-05-30 14:37:45] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.92) | Alerts: None
+[2025-05-30 14:37:45] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.91), person (0.61), laptop (0.53), chair (0.47) | Alerts: None
+[2025-05-30 14:37:46] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90), chair (0.64), person (0.62) | Alerts: None
+[2025-05-30 14:37:46] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), person (0.67), laptop (0.49), chair (0.45) | Alerts: None
+[2025-05-30 14:37:46] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.85), laptop (0.59) | Alerts: None
+[2025-05-30 14:37:47] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86), cell phone (0.72) | Alerts: None
+[2025-05-30 14:37:47] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86), cell phone (0.86) | Alerts: None
+[2025-05-30 14:37:47] FPS: 3.4 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), cell phone (0.80) | Alerts: None
+[2025-05-30 14:37:48] FPS: 3.4 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: cell phone (0.89), person (0.88) | Alerts: None
+[2025-05-30 14:37:48] FPS: 3.4 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.80), person (0.63) | Alerts: None
+[2025-05-30 14:37:48] FPS: 3.4 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: cell phone (0.72), person (0.62), person (0.57), person (0.55) | Alerts: None
+[2025-05-30 14:37:49] FPS: 3.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.68), person (0.48), person (0.44) | Alerts: None
+[2025-05-30 14:37:49] FPS: 3.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.77), person (0.75), cell phone (0.52) | Alerts: None
+[2025-05-30 14:37:49] FPS: 3.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.74) | Alerts: None
+[2025-05-30 14:37:49] FPS: 3.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.74) | Alerts: None
+[2025-05-30 14:37:50] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.75), cell phone (0.56), person (0.45) | Alerts: None
+[2025-05-30 14:37:50] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86) | Alerts: None
+[2025-05-30 14:37:50] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88) | Alerts: None
+[2025-05-30 14:37:51] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87) | Alerts: None
+[2025-05-30 14:37:51] FPS: 3.5 | Head: Looking at Screen | Eyes: Eyes Moving | Objects: person (0.90) | Alerts: None
+[2025-05-30 14:37:51] FPS: 3.5 | Head: Looking at Screen | Eyes: Eyes Moving | Objects: cell phone (0.94), person (0.88) | Alerts: None
+[2025-05-30 14:37:51] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: cell phone (0.90), person (0.89) | Alerts: None
+[2025-05-30 14:37:52] FPS: 3.5 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: cell phone (0.95), person (0.86) | Alerts: None
+[2025-05-30 14:37:52] FPS: 3.1 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.91) | Alerts: None
+[2025-05-30 14:37:53] FPS: 3.1 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.91), cell phone (0.58) | Alerts: None
+[2025-05-30 14:37:53] FPS: 3.1 | Head: Looking at Screen | Eyes: Eyes Moving | Objects: person (0.88) | Alerts: None
+[2025-05-30 14:37:53] FPS: 2.3 | Head: Looking at Screen | Eyes: Eyes Moving | Objects: person (0.92) | Alerts: None
+[2025-05-30 14:37:54] FPS: 2.3 | Head: Looking at Screen | Eyes: Eyes Moving | Objects: person (0.62), person (0.58) | Alerts: None
+[2025-05-30 14:37:54] FPS: 2.3 | Head: Looking at Screen | Eyes: Eyes Moving | Objects: cell phone (0.80), person (0.72), person (0.68), person (0.48) | Alerts: None
+[2025-05-30 14:37:54] FPS: 2.3 | Head: Looking at Screen | Eyes: Eyes Moving | Objects: cell phone (0.78), person (0.69), person (0.53), person (0.48) | Alerts: None
+[2025-05-30 14:37:55] FPS: 3.4 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: cell phone (0.70), person (0.65), person (0.58), person (0.41) | Alerts: None
+[2025-05-30 14:37:55] FPS: 3.4 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: cell phone (0.68), person (0.61), person (0.57), person (0.43) | Alerts: None
+[2025-05-30 14:37:55] FPS: 3.4 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: cell phone (0.73), person (0.66), person (0.58), person (0.46) | Alerts: None
+[2025-05-30 14:37:56] FPS: 3.4 | Head: Looking at Screen | Eyes: Eyes Moving | Objects: person (0.90), person (0.62), chair (0.51) | Alerts: None
+[2025-05-30 14:37:56] FPS: 3.3 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), person (0.67), person (0.44), chair (0.43) | Alerts: None
+[2025-05-30 14:37:56] FPS: 3.3 | Head: Looking at Screen | Eyes: Eyes Moving | Objects: person (0.89), person (0.59), chair (0.53), person (0.42) | Alerts: None
+[2025-05-30 14:37:56] FPS: 3.3 | Head: Looking at Screen | Eyes: Eyes Moving | Objects: person (0.90), person (0.63), person (0.62), chair (0.43) | Alerts: None
+[2025-05-30 14:37:57] FPS: 3.3 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90), person (0.56), laptop (0.54), chair (0.45), person (0.45), person (0.42), person (0.41) | Alerts: None
+[2025-05-30 14:37:57] FPS: 3.2 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), person (0.59), chair (0.52), person (0.51), chair (0.47) | Alerts: None
+[2025-05-30 14:37:57] FPS: 3.2 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.55), chair (0.55) | Alerts: None
+[2025-05-30 14:37:58] FPS: 3.2 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.51), person (0.45), chair (0.42) | Alerts: None
+[2025-05-30 14:37:58] FPS: 3.2 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.76), person (0.49) | Alerts: None
+[2025-05-30 14:37:58] FPS: 3.1 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.74), person (0.62), person (0.41) | Alerts: None
+[2025-05-30 14:37:59] FPS: 3.1 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.64), person (0.56), person (0.51), person (0.42) | Alerts: ALERT: Multiple People
+[2025-05-30 14:37:59] FPS: 3.1 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.76), person (0.63), person (0.51), person (0.45) | Alerts: ALERT: Multiple People
+[2025-05-30 14:37:59] FPS: 3.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.66), person (0.63), person (0.57), person (0.53), person (0.49) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:00] FPS: 3.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.68), person (0.52), person (0.51), person (0.49), person (0.43) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:00] FPS: 3.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.80), person (0.66), person (0.52), person (0.52), person (0.49) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:01] FPS: 2.7 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), chair (0.79), person (0.77), person (0.49), person (0.46), person (0.44) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:01] FPS: 2.7 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.78), person (0.63), person (0.57), person (0.54) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:01] FPS: 2.7 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90), chair (0.77) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:01] FPS: 2.7 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), chair (0.76), person (0.56), person (0.49) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:02] FPS: 3.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90), chair (0.79), person (0.63), person (0.59), person (0.55) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:02] FPS: 3.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90), chair (0.58), person (0.54), person (0.52) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:02] FPS: 3.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90), chair (0.69), person (0.61) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:03] FPS: 3.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90), chair (0.64), person (0.62), person (0.58) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:03] FPS: 3.3 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.75), person (0.43), chair (0.41) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:03] FPS: 3.3 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90), person (0.64), chair (0.60), person (0.40) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:04] FPS: 2.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.52), person (0.51) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:05] FPS: 2.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.65), person (0.52), person (0.46) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:06] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90), chair (0.69), person (0.54), person (0.48) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:07] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.76), person (0.58), person (0.52) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:08] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90), chair (0.75), person (0.63), person (0.43) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:09] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), chair (0.79), person (0.62) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:10] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), chair (0.74), person (0.61), person (0.60) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:11] FPS: 1.0 | Head: Head Turned | Eyes: Looking at Screen | Objects: person (0.88), chair (0.64), person (0.56), person (0.55) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:12] FPS: 1.0 | Head: Head Turned | Eyes: Looking at Screen | Objects: person (0.89), chair (0.71), person (0.65), person (0.62) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:13] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86), chair (0.73), person (0.61), person (0.52) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:14] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.80), person (0.59), person (0.58) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:15] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.66), person (0.64), person (0.46) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:16] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86), chair (0.73), person (0.62), person (0.60) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:17] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), chair (0.65), person (0.54), person (0.43) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:18] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), chair (0.73), person (0.56), person (0.51) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:19] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90), chair (0.65), person (0.58), person (0.53) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:20] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.75), person (0.56), person (0.46) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:21] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), chair (0.77), person (0.62), person (0.61) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:22] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90), chair (0.79), person (0.63), person (0.59) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:23] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86), chair (0.78), person (0.60), person (0.46) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:24] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.77), person (0.59), person (0.41) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:25] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.80), person (0.66) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:26] FPS: 0.9 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.68), person (0.66) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:27] FPS: 0.9 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.63), chair (0.61) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:28] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), person (0.68), chair (0.67), person (0.55) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:29] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.72), person (0.65), person (0.45), chair (0.43) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:30] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86), person (0.64), chair (0.60) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:31] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.68), person (0.65) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:32] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.65), chair (0.58), person (0.52) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:33] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.67), chair (0.61) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:34] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.65), person (0.64), person (0.48) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:35] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.75), person (0.64), person (0.41) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:36] FPS: 1.0 | Head: Head Turned | Eyes: Eyes Moving | Objects: person (0.87), chair (0.79), person (0.67), person (0.52) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:37] FPS: 1.0 | Head: Head Turned | Eyes: Looking at Screen | Objects: person (0.88), chair (0.80), person (0.59), person (0.45) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:38] FPS: 1.0 | Head: Head Turned | Eyes: Eyes Moving | Objects: person (0.89), person (0.61), chair (0.48), chair (0.47), person (0.45) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:39] FPS: 1.0 | Head: Looking Right | Eyes: Eyes Moving | Objects: person (0.86), chair (0.73), person (0.53), person (0.50) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:40] FPS: 1.0 | Head: Looking Right | Eyes: Looking at Screen | Objects: person (0.88), person (0.59), person (0.47) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:41] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.62), person (0.58), chair (0.50) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:42] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.65), person (0.59), chair (0.55) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:43] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.62), chair (0.56), person (0.54) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:44] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.61), person (0.56), person (0.49) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:45] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.68), person (0.61), person (0.47) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:46] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.57), chair (0.52), person (0.51) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:47] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.54), person (0.50), chair (0.43) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:48] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.60), chair (0.60), person (0.56) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:49] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.67), person (0.61), person (0.55), person (0.44) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:50] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.91), chair (0.84), person (0.57), person (0.43) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:51] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), chair (0.82), person (0.58) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:52] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.78), person (0.61), person (0.41) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:53] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.91), chair (0.83), person (0.58), person (0.51) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:54] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.74), person (0.58), person (0.57) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:55] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.73), person (0.51), person (0.50) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:56] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.82), person (0.51), person (0.51) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:57] FPS: 0.9 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.84), person (0.53), person (0.52) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:58] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.80), person (0.53), person (0.52) | Alerts: ALERT: Multiple People
+[2025-05-30 14:38:59] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.77), person (0.56), person (0.43) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:00] FPS: 1.1 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.77), person (0.58), person (0.50) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:01] FPS: 1.1 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.82), person (0.58), person (0.57) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:02] FPS: 0.8 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86), chair (0.77), person (0.62), person (0.42) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:03] FPS: 0.8 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.78), person (0.61), person (0.53) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:04] FPS: 1.3 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.79), person (0.62), person (0.43) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:05] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.77), person (0.60), person (0.56) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:06] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86), chair (0.80), person (0.58) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:07] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.77), person (0.58), person (0.51) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:08] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.77), person (0.57), person (0.50) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:09] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.80), person (0.51), person (0.47) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:10] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.60), person (0.58), person (0.47) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:11] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.72), person (0.52), person (0.49) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:12] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.61), person (0.55), person (0.54) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:13] FPS: 0.9 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.74), person (0.56), person (0.52), person (0.43) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:14] FPS: 0.9 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.69), person (0.54), person (0.50) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:15] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.77), person (0.51), person (0.49), person (0.47) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:16] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.75), person (0.65), person (0.63), person (0.61) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:17] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.78), person (0.57), person (0.52), person (0.50) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:18] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.78), person (0.64), person (0.63), person (0.52), person (0.51) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:19] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.63), person (0.58), person (0.56), chair (0.53) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:20] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), chair (0.80), person (0.58), person (0.52) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:21] FPS: 1.0 | Head: Looking Right | Eyes: Eyes Moving | Objects: person (0.89), person (0.61), chair (0.59) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:22] FPS: 1.0 | Head: Looking Right | Eyes: Looking at Screen | Objects: person (0.88), chair (0.74), person (0.53), person (0.52) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:23] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.85), chair (0.74), person (0.60) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:24] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.68), person (0.55), person (0.55), person (0.45) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:25] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.76), chair (0.63), person (0.56), person (0.51) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:26] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.80), person (0.59), person (0.45), person (0.44) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:27] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.71), person (0.59), person (0.57), person (0.55) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:28] FPS: 0.9 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), person (0.58), chair (0.57), person (0.55) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:29] FPS: 0.9 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.77), person (0.55), person (0.49) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:30] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.85), chair (0.73), person (0.55), person (0.49) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:31] FPS: 0.9 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86), chair (0.75), person (0.62), person (0.61) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:32] FPS: 0.9 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.69), person (0.60), person (0.55), person (0.42) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:33] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86), chair (0.73), person (0.61), person (0.56) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:34] FPS: 0.9 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), person (0.64), chair (0.63), person (0.58) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:35] FPS: 0.9 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), person (0.62), person (0.60), chair (0.60), person (0.52) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:36] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86), person (0.66), person (0.60), person (0.56), chair (0.43) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:37] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.71), person (0.63), person (0.56), person (0.41) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:38] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.72), person (0.55), person (0.53), person (0.42) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:39] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86), chair (0.74), person (0.73), person (0.71), person (0.62), person (0.53) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:40] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), chair (0.74), person (0.71), person (0.70), person (0.58) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:41] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.86), chair (0.81), person (0.70), person (0.66), person (0.55) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:42] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), person (0.70), person (0.62), person (0.61), chair (0.53) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:43] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), chair (0.82), person (0.69), person (0.68), person (0.58) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:44] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), person (0.70), person (0.64), chair (0.63), person (0.62), person (0.49) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:45] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.70), person (0.62), person (0.51) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:46] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), person (0.66), person (0.56), person (0.55), laptop (0.43) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:47] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.65), person (0.62), person (0.51), laptop (0.48) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:48] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.70), person (0.56), person (0.52) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:49] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.60), person (0.56), person (0.53), laptop (0.43) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:50] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), person (0.76), person (0.67), person (0.62), laptop (0.44) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:51] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.73), person (0.69), person (0.56), person (0.49), laptop (0.41) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:52] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89), person (0.65), chair (0.61), person (0.61), person (0.53) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:53] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.69), person (0.62), laptop (0.44), chair (0.42) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:54] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87), person (0.57), person (0.53), laptop (0.45) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:55] FPS: 1.0 | Head: Head Turned | Eyes: Looking at Screen | Objects: person (0.89), person (0.55), person (0.55), laptop (0.44) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:56] FPS: 1.0 | Head: Head Turned | Eyes: Eyes Moving | Objects: person (0.90), person (0.58), person (0.49), chair (0.40) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:57] FPS: 1.0 | Head: Head Turned | Eyes: Looking at Screen | Objects: person (0.89), person (0.67), person (0.47), chair (0.42) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:58] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.55), person (0.46) | Alerts: ALERT: Multiple People
+[2025-05-30 14:39:59] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.61), person (0.53), laptop (0.41) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:00] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88), person (0.65), person (0.55), chair (0.47), person (0.44) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:01] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.68) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:02] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.85) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:03] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:04] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.91) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:05] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:06] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:07] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:08] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:09] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:10] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:11] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:12] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88) | Alerts: ALERT: Multiple People
+[2025-05-30 14:40:13] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89) | Alerts: None
+[2025-05-30 14:40:14] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88) | Alerts: None
+[2025-05-30 14:40:15] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89) | Alerts: None
+[2025-05-30 14:40:16] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88) | Alerts: None
+[2025-05-30 14:40:17] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88) | Alerts: None
+[2025-05-30 14:40:18] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88) | Alerts: None
+[2025-05-30 14:40:19] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88) | Alerts: None
+[2025-05-30 14:40:20] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87) | Alerts: None
+[2025-05-30 14:40:21] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90) | Alerts: None
+[2025-05-30 14:40:22] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89) | Alerts: None
+[2025-05-30 14:40:23] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89) | Alerts: None
+[2025-05-30 14:40:24] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89) | Alerts: None
+[2025-05-30 14:40:25] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.89) | Alerts: None
+[2025-05-30 14:40:26] FPS: 1.0 | Head: Head Turned | Eyes: Looking at Screen | Objects: person (0.86) | Alerts: None
+[2025-05-30 14:40:27] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88) | Alerts: None
+[2025-05-30 14:40:28] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90) | Alerts: None
+[2025-05-30 14:40:29] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.87) | Alerts: None
+[2025-05-30 14:40:30] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90) | Alerts: None
+[2025-05-30 14:40:31] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88) | Alerts: None
+[2025-05-30 14:40:32] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.90) | Alerts: None
+[2025-05-30 14:40:33] FPS: 1.0 | Head: Looking at Screen | Eyes: Looking at Screen | Objects: person (0.88) | Alerts: None
+[2025-05-30 14:40:34] FPS: 1.0 | Head: Head Turned | Eyes: Looking at Screen | Objects: person (0.91) | Alerts: None

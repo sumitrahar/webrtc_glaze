@@ -40,12 +40,16 @@ async function startWebcam() {
         
         updateStatus("Webcam started, connecting to detection service...");
 
-        // FIXED: Correct WebSocket URL - matches the backend endpoint exactly
-        ws = new WebSocket("ws://localhost:8000/ws");
+        // FIXED: Correct WebSocket URL - exactly matching the backend endpoint
+        const wsProtocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+        const wsUrl = `${wsProtocol}//${window.location.host}/ws`;
+        
+        console.log("Connecting to WebSocket:", wsUrl);
+        ws = new WebSocket(wsUrl);
 
         ws.onopen = () => {
             updateStatus("✅ Connected to cheating detection service", 'success');
-            console.log("WebSocket connected");
+            console.log("WebSocket connected successfully");
             // Start sending frames periodically
             startSendingFrames();
         };
@@ -59,9 +63,9 @@ async function startWebcam() {
             }
         };
 
-        ws.onclose = () => {
-            updateStatus("❌ Disconnected from detection service", 'error');
-            console.log("WebSocket disconnected");
+        ws.onclose = (event) => {
+            updateStatus(`❌ Disconnected from detection service (Code: ${event.code})`, 'error');
+            console.log("WebSocket disconnected with code:", event.code, "reason:", event.reason);
             stopSendingFrames();
         };
 
@@ -256,3 +260,33 @@ document.addEventListener('keydown', (event) => {
         toggleBtn.click();
     }
 });
+
+// Test WebSocket connection function
+async function testWebSocketConnection() {
+    const wsProtocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    const wsUrl = `${wsProtocol}//${window.location.host}/ws`;
+    
+    console.log("Testing WebSocket connection to:", wsUrl);
+    
+    try {
+        const testWs = new WebSocket(wsUrl);
+        
+        testWs.onopen = () => {
+            console.log("✅ WebSocket test connection successful");
+            testWs.close();
+        };
+        
+        testWs.onerror = (error) => {
+            console.error("❌ WebSocket test connection failed:", error);
+        };
+        
+        testWs.onclose = (event) => {
+            console.log("WebSocket test connection closed:", event.code, event.reason);
+        };
+    } catch (error) {
+        console.error("❌ WebSocket test failed:", error);
+    }
+}
+
+// Add a button to test connection (for debugging)
+console.log("WebSocket test function available: testWebSocketConnection()");
