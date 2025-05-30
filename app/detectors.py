@@ -7,6 +7,7 @@ from scipy.spatial.transform import Rotation as R
 from collections import deque
 import datetime
 import os
+import time
 from typing import Dict, List, Tuple, Optional
 import logging
 
@@ -41,7 +42,42 @@ class CheatingDetector:
     def __init__(self):
         self.setup_models()
         self.setup_alert_system()
-        self.logger = logging.getLogger(__name__)
+        self.setup_logging()
+        
+        # FPS tracking
+        self.last_time = time.time()
+        self.frame_count = 0
+        self.fps = 0.0
+        
+    def setup_logging(self):
+        """Setup detailed logging for detection events"""
+        # Create logger for detection events
+        self.logger = logging.getLogger('cheating_detector')
+        self.logger.setLevel(logging.INFO)
+        
+        # Create console handler if not exists
+        if not self.logger.handlers:
+            console_handler = logging.StreamHandler()
+            console_handler.setLevel(logging.INFO)
+            
+            # Create detailed formatter
+            formatter = logging.Formatter(
+                '[%(asctime)s] %(message)s',
+                datefmt='%Y-%m-%d %H:%M:%S'
+            )
+            console_handler.setFormatter(formatter)
+            self.logger.addHandler(console_handler)
+        
+    def update_fps(self):
+        """Calculate and update FPS"""
+        current_time = time.time()
+        self.frame_count += 1
+        
+        # Calculate FPS every second
+        if current_time - self.last_time >= 1.0:
+            self.fps = self.frame_count / (current_time - self.last_time)
+            self.frame_count = 0
+            self.last_time = current_time
         
     def setup_models(self):
         """Initialize MediaPipe and YOLO models"""
@@ -57,9 +93,9 @@ class CheatingDetector:
                 output_facial_transformation_matrixes=True
             )
             self.face_landmarker = mp.tasks.vision.FaceLandmarker.create_from_options(options)
-            self.logger.info("MediaPipe Face landmarker loaded successfully")
+            print("✅ MediaPipe Face landmarker loaded successfully")
         except Exception as e:
-            self.logger.error(f"MediaPipe Face landmarker error: {e}")
+            print(f"❌ MediaPipe Face landmarker error: {e}")
             self.face_landmarker = None
         
         # YOLO setup
@@ -68,9 +104,9 @@ class CheatingDetector:
             self.yolo_model.to(DEVICE)
             self.valid_classes = {k: v for k, v in MONITORED_CLASSES.items() 
                                 if k in self.yolo_model.names.values()}
-            self.logger.info(f"YOLO loaded successfully, monitoring: {list(self.valid_classes.keys())}")
+            print(f"✅ YOLO loaded successfully, monitoring: {list(self.valid_classes.keys())}")
         except Exception as e:
-            self.logger.error(f"YOLO error: {e}")
+            print(f"❌ YOLO error: {e}")
             self.yolo_model = None
     
     def setup_alert_system(self):
@@ -99,7 +135,7 @@ class CheatingDetector:
             else:
                 return "Head Turned"
         except Exception as e:
-            self.logger.error(f"Head pose calculation error: {e}")
+            print(f"❌ Head pose calculation error: {e}")
             return "Unknown"
     
     def get_eye_gaze(self, landmarks, frame_width: int, frame_height: int) -> str:
@@ -140,7 +176,7 @@ class CheatingDetector:
                 return "Eyes Moving"
                 
         except Exception as e:
-            self.logger.error(f"Gaze calculation error: {e}")
+            print(f"❌ Gaze calculation error: {e}")
             return "Unknown"
     
     def process_yolo_detections(self, yolo_results) -> Tuple[List[str], List[str]]:
@@ -179,6 +215,29 @@ class CheatingDetector:
         
         return detected_objects, alerts
     
+    def log_detection_results(self, results: Dict):
+        """Log detection results in the desired format"""
+        # Update FPS
+        self.update_fps()
+        
+        # Format detected objects
+        objects_str = ", ".join(results['detected_objects']) if results['detected_objects'] else 'None'
+        
+        # Format alerts
+        alerts_str = ", ".join(results['alerts']) if results['alerts'] else 'None'
+        
+        # Create log message
+        log_message = (
+            f"FPS: {self.fps:.1f} | "
+            f"Head: {results['head_pose']} | "
+            f"Eyes: {results['eye_gaze']} | "
+            f"Objects: {objects_str} | "
+            f"Alerts: {alerts_str}"
+        )
+        
+        # Log the message
+        self.logger.info(log_message)
+    
     def detect_frame(self, frame: np.ndarray) -> Dict:
         """
         Main detection function for a single frame
@@ -193,7 +252,8 @@ class CheatingDetector:
             'detected_objects': [],
             'alerts': [],
             'face_detected': False,
-            'timestamp': datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            'timestamp': datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            'fps': self.fps
         }
         
         # MediaPipe Face Detection and Gaze Analysis
@@ -220,7 +280,7 @@ class CheatingDetector:
                         landmarks, frame_width, frame_height)
                         
             except Exception as e:
-                self.logger.error(f"MediaPipe detection error: {e}")
+                print(f"❌ MediaPipe detection error: {e}")
                 results['head_pose'] = 'Error'
                 results['eye_gaze'] = 'Error'
         
@@ -240,7 +300,10 @@ class CheatingDetector:
                 results['alerts'] = alerts
                 
             except Exception as e:
-                self.logger.error(f"YOLO detection error: {e}")
+                print(f"❌ YOLO detection error: {e}")
+        
+        # Log the results
+        self.log_detection_results(results)
         
         return results
 
@@ -266,7 +329,8 @@ def detect_cheating(frame: np.ndarray) -> Dict:
             'detected_objects': List[str],
             'alerts': List[str],
             'face_detected': bool,
-            'timestamp': str
+            'timestamp': str,
+            'fps': float
         }
     """
     detector = get_detector()
@@ -291,7 +355,8 @@ def get_detector_status() -> Dict:
         'yolo_loaded': detector.yolo_model is not None,
         'device': DEVICE,
         'monitored_classes': list(detector.valid_classes.keys()),
-        'confidence_threshold': CONFIDENCE_THRESHOLD
+        'confidence_threshold': CONFIDENCE_THRESHOLD,
+        'current_fps': detector.fps
     }
 
 def detect_cheating_batch(frames: List[np.ndarray]) -> List[Dict]:
